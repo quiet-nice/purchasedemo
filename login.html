@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>酒在线登录</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<script>
+			if (!!navigator.userAgent.match(/AppleWebKit.*Mobile.*/)) {
+				document.querySelector("meta[name=viewport]") || (viewport = document.createElement('meta'), document.getElementsByTagName('head')[0].appendChild(viewport), viewport.setAttribute('name', 'viewport'), viewport.setAttribute('content', 'width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0' + (navigator.userAgent.indexOf('Android') > -1 ? ',target-densitydpi=device-dpi' : '')));
+			}
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';
+		</script>
+		<link rel="stylesheet" href="css/mui.min.css">
+		<script type="text/javascript" src="js/mui.min.js" ></script>
+		<script src="js/update.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="css/y-wineonline.css" />
+	</head>
+	<body>
+		<div id="login-wrap" class="wrap login-wrap">
+			<div class="login-blank"></div>
+			<div class="login-logo">
+				<img src="img/logo.png" class="width-auto" />
+			</div>
+			<form class="login-form">
+				<div class="form-group">
+					<label class="form-lable">登录</label>
+					<input type="text" class="form-control" />
+				</div>
+				<div class="form-group">
+					<label class="form-lable">密码</label>
+					<input type="password" class="form-control" />
+				</div>
+
+				<button type="button" class="loginBtn">立即登录</button>
+
+			</form>
+		</div>
+		
+		<script>
+			mui.init();
+		</script>
+	</body>
+</html>

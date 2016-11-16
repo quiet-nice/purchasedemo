@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>酒在线首页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<script>
+			if(!!navigator.userAgent.match(/AppleWebKit.*Mobile.*/)) {
+				document.querySelector("meta[name=viewport]") || (viewport = document.createElement('meta'), document.getElementsByTagName('head')[0].appendChild(viewport), viewport.setAttribute('name', 'viewport'), viewport.setAttribute('content', 'width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0' + (navigator.userAgent.indexOf('Android') > -1 ? ',target-densitydpi=device-dpi' : '')));
+			}
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';
+		</script>
+		<link rel="stylesheet" href="css/flexslider.css" />
+		<link rel="stylesheet" href="css/mui.min.css">
+		<script type="text/javascript" src="js/mui.min.js"></script>
+		<script src="js/update.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="css/y-wineonline.css" />
+	</head>
+
+	<body>
+		<div class="wrap wineHome topSearch">
+			<!--顶部信息搜索栏-->
+			<div class="topTitle">
+				<div class="topleft"></div>
+				<div class="titleWord">
+					<div class="searchBox">
+						<img src="img/searchIcon.png" class="searchIcon"/>
+						<input class="searchText" type="text" placeholder="搜索产品" />
+					</div>
+					
+				</div>
+				<div class="topright">
+					<img src="img/scanIcon.png" class="scanBtn" />
+					<p>扫一扫</p>
+				</div>
+			</div>
+
+			<div class="mainSection">
+				<!--产品展示banner图开始-->
+			<div class="banner flexslider">
+					<ul class="slides">
+						<li><img src="img/product_banner1.png" /></li>
+						<li><img src="img/product_banner1.png" /></li>
+					</ul>
+				</div>
+			<!--产品展示banner图结束-->
+
+			<!--产品分类开始-->
+			<div class="productCategory bgwhite">
+				<ul>
+					<a href="#">
+					<li>
+						<img src="img/c_liquor.png" />
+					</li>
+					</a>
+					<a href="#">
+					<li>
+						<img src="img/c_beer.png" />
+					</li>
+					</a>
+					<a href="#">
+					<li>
+						<img src="img/c_foreign.png" />
+					</li>
+					</a>
+					<a href="#">
+					<li>
+						<img src="img/c_grape.png" />
+					</li>
+					</a>
+					<a href="#">
+					<li>
+						<img src="img/c_new.png" />
+					</li>
+					</a>
+				</ul>
+			</div>
+			<!--产品分类结束-->
+			
+			
+			<!--今日特惠开始-->
+			<div class="specialSection bgwhite">
+				<div class="specialTitle">
+					<div class="title">
+						<span class="name">今日特惠</span>
+						<span class="tip">特惠商品限量购</span>
+					</div>
+					<div class="icon-arrowright"><img src="img/right_arrow_circle.png"/></div>
+				</div>
+				<div class="specialBox">
+					<a href="#">
+					<div class="col-left">
+						<img src="img/special_left_img.png" class="productimg"/>
+						<h2 class="productname">超值抢购53度飞天茅台 茅台酒... </h2>
+						<div class="productprice">￥3330.00 <img src="img/shoppingcart.png" class="shoppingcart"/></div>
+					</div>
+					</a>
+					<div class="col-right">
+						<ul>
+							<li>
+								<img src="img/special_right_img.png" class="productimg"/>
+								<h2 class="productname">超值抢购53度飞天茅台 茅台酒... </h2>
+						<div class="productprice">￥3330.00 <img src="img/shoppingcart.png" class="shoppingcart"/></div>
+							</li>
+							<li>
+								<img src="img/special_right_img.png" class="productimg"/>
+								<h2 class="productname">超值抢购53度飞天茅台 茅台酒... </h2>
+						<div class="productprice">￥3330.00 <img src="img/shoppingcart.png" class="shoppingcart"/></div>
+							</li>
+							<li>
+								<img src="img/special_right_img.png" class="productimg"/>
+								<h2 class="productname">超值抢购53度飞天茅台 茅台酒... </h2>
+						<div class="productprice">￥3330.00 <img src="img/shoppingcart.png" class="shoppingcart"/></div>
+							</li>
+							<li>
+								<img src="img/special_right_img.png" class="productimg"/>
+								<h2 class="productname">超值抢购53度飞天茅台 茅台酒... </h2>
+						<div class="productprice">￥3330.00 <img src="img/shoppingcart.png" class="shoppingcart"/></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--今日特惠结束-->
+			
+			<!--热销产品列表区开始-->
+			<div class="hotshop">
+				<!--白酒区-->
+				<div class="hotliquor">
+					<div class="hottitle">
+						<hr />
+						<span><img src="img/divide_liquor.png"/>白酒</span>
+						<hr />
+					</div>
+					<div class="hotproduct bgwhite">
+						<div class="col-left">
+							<img src="img/hotproductimg.png" class="hotproductimg" />
+						</div>
+						<div class="col-right">
+							<h2 class="hotproductname">53度飞天茅台</h2>
+							<div class="hotproductmesg">
+								<p>香型：酱香型 <label>单位：瓶</label></p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+							</div>
+							<ul class="hotproductprice">
+								<li>
+									<p>批发价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<p>零售价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<div class="purchaseprice">
+										<p class="tip"><img src="img/nobgcart.png" />采购价</p>
+									<p class="unit">&yen;950</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="hotproduct bgwhite">
+						<div class="col-left">
+							<img src="img/hotproductimg.png" class="hotproductimg" />
+						</div>
+						<div class="col-right">
+							<h2 class="hotproductname">53度飞天茅台</h2>
+							<div class="hotproductmesg">
+								<p>香型：酱香型 <label>单位：瓶</label></p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+							</div>
+							<ul class="hotproductprice">
+								<li>
+									<p>批发价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<p>零售价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<div class="purchaseprice">
+										<p class="tip"><img src="img/nobgcart.png" />采购价</p>
+									<p class="unit">&yen;950</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="hotproduct bgwhite">
+						<div class="col-left">
+							<img src="img/hotproductimg.png" class="hotproductimg" />
+						</div>
+						<div class="col-right">
+							<h2 class="hotproductname">53度飞天茅台</h2>
+							<div class="hotproductmesg">
+								<p>香型：酱香型 <label>单位：瓶</label></p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+							</div>
+							<ul class="hotproductprice">
+								<li>
+									<p>批发价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<p>零售价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<div class="purchaseprice">
+										<p class="tip"><img src="img/nobgcart.png" />采购价</p>
+									<p class="unit">&yen;950</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="hotproduct bgwhite">
+						<div class="col-left">
+							<img src="img/hotproductimg.png" class="hotproductimg" />
+						</div>
+						<div class="col-right">
+							<h2 class="hotproductname">53度飞天茅台</h2>
+							<div class="hotproductmesg">
+								<p>香型：酱香型 <label>单位：瓶</label></p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+							</div>
+							<ul class="hotproductprice">
+								<li>
+									<p>批发价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<p>零售价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<div class="purchaseprice">
+										<p class="tip"><img src="img/nobgcart.png" />采购价</p>
+									<p class="unit">&yen;950</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="hotproduct bgwhite">
+						<div class="col-left">
+							<img src="img/hotproductimg.png" class="hotproductimg" />
+						</div>
+						<div class="col-right">
+							<h2 class="hotproductname">53度飞天茅台</h2>
+							<div class="hotproductmesg">
+								<p>香型：酱香型 <label>单位：瓶</label></p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+							</div>
+							<ul class="hotproductprice">
+								<li>
+									<p>批发价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<p>零售价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<div class="purchaseprice">
+										<p class="tip"><img src="img/nobgcart.png" />采购价</p>
+									<p class="unit">&yen;950</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="hotproduct bgwhite">
+						<div class="col-left">
+							<img src="img/hotproductimg.png" class="hotproductimg" />
+						</div>
+						<div class="col-right">
+							<h2 class="hotproductname">53度飞天茅台</h2>
+							<div class="hotproductmesg">
+								<p>香型：酱香型 <label>单位：瓶</label></p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+							</div>
+							<ul class="hotproductprice">
+								<li>
+									<p>批发价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<p>零售价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<div class="purchaseprice">
+										<p class="tip"><img src="img/nobgcart.png" />采购价</p>
+									<p class="unit">&yen;950</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="more">
+						<div class="morebtn">
+							<i class="mui-icon mui-icon-eye"></i>查看更多商品...
+						</div>
+					</div>
+				</div>
+				<!--白酒区结束-->
+				
+				<!--葡萄酒区开始-->
+				<div class="hotgrape">
+					<div class="hottitle">
+						<hr />
+						<span><img src="img/divide_grape.png"/>葡萄酒</span>
+						<hr />
+					</div>
+					<div class="hotproduct bgwhite">
+						<div class="col-left">
+							<img src="img/hotproductimg.png" class="hotproductimg" />
+						</div>
+						<div class="col-right">
+							<h2 class="hotproductname">53度飞天茅台</h2>
+							<div class="hotproductmesg">
+								<p>香型：酱香型 <label>单位：瓶</label></p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+							</div>
+							<ul class="hotproductprice">
+								<li>
+									<p>批发价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<p>零售价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<div class="purchaseprice">
+										<p class="tip"><img src="img/nobgcart.png" />采购价</p>
+									<p class="unit">&yen;950</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="hotproduct bgwhite">
+						<div class="col-left">
+							<img src="img/hotproductimg.png" class="hotproductimg" />
+						</div>
+						<div class="col-right">
+							<h2 class="hotproductname">53度飞天茅台</h2>
+							<div class="hotproductmesg">
+								<p>香型：酱香型 <label>单位：瓶</label></p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+							</div>
+							<ul class="hotproductprice">
+								<li>
+									<p>批发价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<p>零售价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<div class="purchaseprice">
+										<p class="tip"><img src="img/nobgcart.png" />采购价</p>
+									<p class="unit">&yen;950</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="hotproduct bgwhite">
+						<div class="col-left">
+							<img src="img/hotproductimg.png" class="hotproductimg" />
+						</div>
+						<div class="col-right">
+							<h2 class="hotproductname">53度飞天茅台</h2>
+							<div class="hotproductmesg">
+								<p>香型：酱香型 <label>单位：瓶</label></p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+							</div>
+							<ul class="hotproductprice">
+								<li>
+									<p>批发价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<p>零售价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<div class="purchaseprice">
+										<p class="tip"><img src="img/nobgcart.png" />采购价</p>
+									<p class="unit">&yen;950</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+								
+					<div class="more">
+						<div class="morebtn">
+							<i class="mui-icon mui-icon-eye"></i>查看更多商品...
+						</div>
+					</div>
+				</div>
+				<!--葡萄酒区结束-->
+				
+				<!--洋酒区开始-->
+				<div class="hotforeign">
+					<div class="hottitle">
+						<hr />
+						<span><img src="img/divide_foreign.png"/>葡萄酒</span>
+						<hr />
+					</div>
+					<div class="hotproduct bgwhite">
+						<div class="col-left">
+							<img src="img/hotproductimg.png" class="hotproductimg" />
+						</div>
+						<div class="col-right">
+							<h2 class="hotproductname">53度飞天茅台</h2>
+							<div class="hotproductmesg">
+								<p>香型：酱香型 <label>单位：瓶</label></p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+							</div>
+							<ul class="hotproductprice">
+								<li>
+									<p>批发价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<p>零售价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<div class="purchaseprice">
+										<p class="tip"><img src="img/nobgcart.png" />采购价</p>
+									<p class="unit">&yen;950</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="hotproduct bgwhite">
+						<div class="col-left">
+							<img src="img/hotproductimg.png" class="hotproductimg" />
+						</div>
+						<div class="col-right">
+							<h2 class="hotproductname">53度飞天茅台</h2>
+							<div class="hotproductmesg">
+								<p>香型：酱香型 <label>单位：瓶</label></p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+							</div>
+							<ul class="hotproductprice">
+								<li>
+									<p>批发价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<p>零售价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<div class="purchaseprice">
+										<p class="tip"><img src="img/nobgcart.png" />采购价</p>
+									<p class="unit">&yen;950</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="hotproduct bgwhite">
+						<div class="col-left">
+							<img src="img/hotproductimg.png" class="hotproductimg" />
+						</div>
+						<div class="col-right">
+							<h2 class="hotproductname">53度飞天茅台</h2>
+							<div class="hotproductmesg">
+								<p>香型：酱香型 <label>单位：瓶</label></p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+							</div>
+							<ul class="hotproductprice">
+								<li>
+									<p>批发价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<p>零售价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<div class="purchaseprice">
+										<p class="tip"><img src="img/nobgcart.png" />采购价</p>
+									<p class="unit">&yen;950</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+								
+					<div class="more">
+						<div class="morebtn">
+							<i class="mui-icon mui-icon-eye"></i>查看更多商品...
+						</div>
+					</div>
+				</div>
+				<!--洋酒区结束-->
+				<!--啤酒区开始-->
+				<div class="hotbeer">
+					<div class="hottitle">
+						<hr />
+						<span><img src="img/divide_beer.png"/>葡萄酒</span>
+						<hr />
+					</div>
+					<div class="hotproduct bgwhite">
+						<div class="col-left">
+							<img src="img/hotproductimg.png" class="hotproductimg" />
+						</div>
+						<div class="col-right">
+							<h2 class="hotproductname">53度飞天茅台</h2>
+							<div class="hotproductmesg">
+								<p>香型：酱香型 <label>单位：瓶</label></p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+							</div>
+							<ul class="hotproductprice">
+								<li>
+									<p>批发价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<p>零售价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<div class="purchaseprice">
+										<p class="tip"><img src="img/nobgcart.png" />采购价</p>
+									<p class="unit">&yen;950</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="hotproduct bgwhite">
+						<div class="col-left">
+							<img src="img/hotproductimg.png" class="hotproductimg" />
+						</div>
+						<div class="col-right">
+							<h2 class="hotproductname">53度飞天茅台</h2>
+							<div class="hotproductmesg">
+								<p>香型：酱香型 <label>单位：瓶</label></p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+							</div>
+							<ul class="hotproductprice">
+								<li>
+									<p>批发价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<p>零售价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<div class="purchaseprice">
+										<p class="tip"><img src="img/nobgcart.png" />采购价</p>
+									<p class="unit">&yen;950</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="hotproduct bgwhite">
+						<div class="col-left">
+							<img src="img/hotproductimg.png" class="hotproductimg" />
+						</div>
+						<div class="col-right">
+							<h2 class="hotproductname">53度飞天茅台</h2>
+							<div class="hotproductmesg">
+								<p>香型：酱香型 <label>单位：瓶</label></p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+							</div>
+							<ul class="hotproductprice">
+								<li>
+									<p>批发价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<p>零售价</p>
+									<p>&yen;950</p>
+								</li>
+								<li>
+									<div class="purchaseprice">
+										<p class="tip"><img src="img/nobgcart.png" />采购价</p>
+									<p class="unit">&yen;9500</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+								
+					<div class="more">
+						<div class="morebtn">
+							<i class="mui-icon mui-icon-eye"></i>查看更多商品...
+						</div>
+					</div>
+				</div>
+				<!--啤酒去结束-->
+			</div>
+			<!--热销产品列表区结束-->
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.flexslider-min.js" ></script>
+		<script type="text/javascript" src="js/online.js" ></script>
+	</body>
+
+</html>

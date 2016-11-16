@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<script>
+			if(!!navigator.userAgent.match(/AppleWebKit.*Mobile.*/)) {
+				document.querySelector("meta[name=viewport]") || (viewport = document.createElement('meta'), document.getElementsByTagName('head')[0].appendChild(viewport), viewport.setAttribute('name', 'viewport'), viewport.setAttribute('content', 'width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0' + (navigator.userAgent.indexOf('Android') > -1 ? ',target-densitydpi=device-dpi' : '')));
+			}
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';
+		</script>
+		<link rel="stylesheet" href="css/flexslider.css" />
+		<link rel="stylesheet" href="css/mui.min.css">
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/mui.min.js"></script>
+		<script type="text/javascript" src="js/jquery.flexslider-min.js" ></script>
+		<script src="js/update.js" type="text/javascript" charset="utf-8"></script>
+		
+		<link rel="stylesheet" href="css/y-wineonline.css" />
+	</head>
+	<body>
+		<div class="wrap purchasePage">
+			<!--顶部信息搜索栏-->
+			<div class="topsection">
+				购物车
+				<div class="rightbtn" id="rightbtn">
+					<a class="editall mui-action-back mui-btn mui-btn-link mui-pull-right" id="editall">编辑全部</a>
+					<a class="deleteall mui-action-back mui-btn mui-btn-link mui-pull-right" id="deleteall"  style="display: none;">删除全部</a>
+				</div>
+			</div>
+			
+			<div class="ordersection">
+				<div class="productorder bgwhite">
+					<div class="ordernum">订单编号：SJWJSJD5545464</div>
+					<div class="ordermesg hotproduct">
+						<div class="col-left">
+							<div class="select"><img src="img/checked_icon.png"/></div>
+							<img src="img/hotproductimg.png" class="orderimg" />
+						</div>
+						<div class="col-right">
+							<div class="orderproduct">
+								<h2 class="productbname ">53度飞天茅台</h2>
+								<p>香型：酱香型 </p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+								<p>单价：&yen;<span class="signalPrice">1</span>/瓶</p>
+								<div class="purchasenum">
+								<div class="numtip">数量：</div>
+									<div class="mui-numbox" data-numbox-min='1' >
+					<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+					<input class="mui-input-numbox" type="number" value="1" />
+					<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+				</div>
+				</div>
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="productorder bgwhite">
+					<div class="ordernum">订单编号：SJWJSJD5545464</div>
+					<div class="ordermesg hotproduct">
+						<div class="col-left">
+							<div class="select"><img src="img/checked_icon.png"/></div>
+							<img src="img/hotproductimg.png" class="orderimg" />
+						</div>
+						<div class="col-right">
+							<div class="orderproduct">
+								<h2 class="productbname ">53度飞天茅台</h2>
+								<p>香型：酱香型 </p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+								<p>单价：&yen;<span class="signalPrice">1</span>/瓶</p>
+								<div class="purchasenum">
+								<div class="numtip">数量：</div>
+									<div class="mui-numbox" data-numbox-min='1' >
+					<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+					<input class="mui-input-numbox" type="number" value="1" />
+					<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+				</div>
+				</div>
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="productorder bgwhite">
+					<div class="ordernum">订单编号：SJWJSJD5545464</div>
+					<div class="ordermesg hotproduct">
+						<div class="col-left">
+							<div class="select"><img src="img/checked_icon.png"/></div>
+							<img src="img/hotproductimg.png" class="orderimg" />
+						</div>
+						<div class="col-right">
+							<div class="orderproduct">
+								<h2 class="productbname ">53度飞天茅台</h2>
+								<p>香型：酱香型 </p>
+								<p>酒精度：53%vol</p>
+								<p>净含量：500ml/瓶  6瓶/箱</p>
+								<p>单价：&yen;<span class="signalPrice">1</span>/瓶</p>
+								<div class="purchasenum">
+								<div class="numtip">数量：</div>
+									<div class="mui-numbox" data-numbox-min='1' >
+					<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+					<input class="mui-input-numbox" type="number" value="1" />
+					<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+				</div>
+				</div>
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+
+				<div class="ordermoney bgwhite">
+					<div class="selectall" id="selectallBtn">
+						<div class="selectallbtn"><img src="img/checked_icon.png"/></div>全选
+					</div>
+					<div class="allmoney">
+						合计：&yen;<span>0</span>
+					</div>
+					<div class="purchasebtn">结算(<span id="goodsnum">0</span>)</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/online.js" ></script>
+	</body>
+</html>
